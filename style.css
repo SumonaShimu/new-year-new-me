@@ -100,3 +100,20 @@ ul li:before {
 .skill{
     margin-left: 30px;
 }
+/* linear Gradient */
+.grad{
+    background-image: url("images/watch.png"),linear-gradient(to right, rgba(3, 3, 19, 1), rgba(195, 202, 246, 0.415));
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    height:50vh;
+    width:1140px;
+    background-size:cover;
+    margin: 0 150px;
+}
+.mindset{
+    font-weight: 500;
+    font-size: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
