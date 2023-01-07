@@ -1,12 +1,13 @@
 * {
     font-family: 'Work Sans', sans-serif;
+    /* border: 2px solid red; */
 }
 
 .header {
     background-image: url("images/banner.png");
     text-align: right;
     color: rgb(0, 0, 0);
-    padding: 200px 200px;
+    padding: 100px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,7 +19,6 @@
 
 .banner-desc {
     font-size: 16px;
-    color: ;
 }
 
 .blue-button {
@@ -34,24 +34,23 @@
     margin-top: 30px;
 }
 
-/* main */
-main {
-    /* align-content: center; */
-}
+/* main portion*/
 
 .failures {
     display: flex;
-    margin: 100px 200px;
-    align-content:space-between;
+    margin: 0px 200px;
+    align-content: space-between;
     padding: 70px 0;
 
 }
-.failure-title{
+
+.failure-title {
     font-weight: 700;
     font-size: 40px;
-    color: #444343;
+    color: #000000;
 }
-.failure-desc{
+
+.failure-desc {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
@@ -69,4 +68,35 @@ ul li:before {
     font-weight: bold;
     display: inline-block;
     margin-top: 10px;
+}
+
+/* plan section */
+.my-plans{
+    margin: 0px 200px;
+    padding: 70px 50px;
+    text-align: center;
+}
+.plan-header {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.plans {
+    display: flex;
+    margin-left: 80px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.plan-desc {
+    color: #444343;
+    font-weight: 500;
+    font-size: 15px;
+}
+.skill{
+    margin-left: 30px;
 }
