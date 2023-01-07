@@ -1,6 +1,30 @@
-.header{
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    background-image: url("images/banner.png");
     text-align: right;
-    background-image: url(images/banner.png);
-    background-size: cover;
+    padding: 200px 200px;
     background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-desc {
+    font-size: 16px;
+}
+.blue-button{
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background: #000000;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px 30px;
+    text-align: center;
 }
